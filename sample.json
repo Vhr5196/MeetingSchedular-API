@@ -1,0 +1,37 @@
+//sample json objects are created for testing purpose
+
+{
+       "_id": "5ff1e41cb8071508d1e5cc96",
+       "title": "Codalyze technical round5 discussion",
+       "participants": [
+           {
+               "_id": "5ff1e41cb8071508d1e5cc97",
+               "name": "Hemanth Reddy",
+               "email": "hem12345678@gmail.com",
+               "status": "Yes"
+           },
+           {
+               "_id": "5ff1e41cb8071508d1e5cc98",
+               "name": "Hemanth Reddy",
+               "email": "hem12345678@gmail.com",
+               "status": "No"
+           },
+           {
+               "_id": "5ff1e41cb8071508d1e5cc99",
+               "name": "Hemanth Reddy",
+               "email": "hem12345678@gmail.com",
+               "status": "Can Attend"
+           },
+           {
+               "_id": "5ff1e41cb8071508d1e5cc9a",
+               "name": "Hemanth Reddy",
+               "email": "hem12345678@gmail.com",
+               "status": "No response"
+           }
+       ],
+       "startTime": "2021-01-07T21:30:00.000Z",
+       "endTime": "2021-01-08T00:30:00.000Z",
+       "createdAt": "2021-01-03T15:34:52.434Z",
+       "updatedAt": "2021-01-03T15:34:52.434Z",
+       "__v": 0
+   }
