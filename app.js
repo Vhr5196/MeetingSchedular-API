@@ -76,11 +76,11 @@ app.get("/meetings/:start/:end", paginatedResults(Meeting), async (req, res, nex
     let end = req.query.end
     const meetings = await Meeting.find({
       "startTime": {
-        $gte: Date(start),
-        $lt: Date(end)
+        $gte:new Date(start),
+        $lt:new Date(end)
       }
     });
-    res.status(200).send(meetings);
+    res.status(200).json(meetings);
   } catch (err) {
     return res.status(400).json({ //Bad Input from client side
       message: err.message
