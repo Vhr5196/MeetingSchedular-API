@@ -22,8 +22,8 @@ app.use(express.json()); //server accepts JSON
 //-------------------------End Points----------------------------
 
 //get all Meetings
-app.get("/meetings", paginatedResults(Meeting), function(req, res) {
-  Meeting.find({}, function(err, foundMeetings) {
+app.get("/meetings", paginatedResults(Meeting), (req, res)=> {
+  Meeting.find({}, (err, foundMeetings)=> {
     if (!err) {
       res.json(foundMeetings);
     } else {
